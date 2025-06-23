@@ -24,6 +24,9 @@ HVMC consists of short videos of 3-20s, which contain both harmful and normal ca
 
 **(8) Normal:** This category is for scenes that do not contain any of the above offending video categories.
 
+Here shows the examples of the 8 categories in HVMC:
+
+![HVMC Harmful Video vs. Normal Video Example Chart](https://github.com/PeterBishop0/HVMC/blob/main/images/hvmc_example.png)
 
 ### Download
 If you would like to access the HVMC dataset, please fill out this [google form](https://docs.google.com/forms/d/1nYTahtgAUpe2gsl00TY8rMePY8pQ4XHiLJJEOyVZX3A/edit?usp=forms_home&ths=true). The download link will be sent to you once the form is accepted (in 72 hours). If you have any questions, please send email to [jiawei_ge@seu.edu.com].
