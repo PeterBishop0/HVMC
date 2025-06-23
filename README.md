@@ -28,6 +28,18 @@ Here shows the examples of the 8 categories in HVMC:
 
 ![HVMC Harmful Video vs. Normal Video Example Chart](https://github.com/PeterBishop0/HVMC/blob/main/images/hvmc_example.png)
 
+You can view the raw frame rate of the video through VideoReader's get_avg_fps() method:
+
+```angular2html
+from decord import VideoReader
+
+vr = VideoReader(video_path)
+default_fps = vr.get_avg_fps()
+print("raw frame rate of video (fps):", default_fps)
+```
+
+**For more detailed information on the HVMC dataset, see our paper.**
+
 ### Download
 If you would like to access the HVMC dataset, please fill out this [google form](https://docs.google.com/forms/d/1nYTahtgAUpe2gsl00TY8rMePY8pQ4XHiLJJEOyVZX3A/edit?usp=forms_home&ths=true). The download link will be sent to you once the form is accepted (in 72 hours). If you have any questions, please send email to [jiawei_ge@seu.edu.com].
 
