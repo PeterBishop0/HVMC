@@ -24,6 +24,8 @@ HVMC consists of short videos of 3-20s, which contain both harmful and normal ca
 
 **(8) Normal:** This category is for scenes that do not contain any of the above offending video categories.
 
+### Dataset Details
+
 Here shows the examples of the 8 categories in HVMC:
 
 ![HVMC Harmful Video vs. Normal Video Example Chart](https://github.com/PeterBishop0/HVMC/blob/main/images/hvmc_example.png)
@@ -37,6 +39,8 @@ vr = VideoReader(video_path)
 default_fps = vr.get_avg_fps()
 print("raw frame rate of video (fps):", default_fps)
 ```
+
+### For more
 
 **For more detailed information on the HVMC dataset, see our paper.**
 
