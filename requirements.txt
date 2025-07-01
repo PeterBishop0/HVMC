@@ -1,0 +1,12 @@
+av==12.0.0
+matplotlib==3.9.4
+moviepy==2.0.0
+numpy==1.26.4
+paddleocr==2.9.1
+paddlepaddle==2.6.2
+pandas==2.2.3
+pillow==10.3.0
+torch==1.13.0
+torchaudio==0.13.0
+torchvision==0.13.0
+transformers==4.40.0
